@@ -62,4 +62,6 @@ group :development, :test do
   # http://test-unit.github.io/
   # https://github.com/test-unit/
   gem "test-unit"
+  gem "awesome_print"
+  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end

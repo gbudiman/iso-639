@@ -3,6 +3,8 @@ GEM
   specs:
     allocation_stats (0.1.5)
     ast (2.4.0)
+    awesome_print (1.8.0)
+    byebug (11.0.1)
     metaclass (0.0.4)
     minitest (5.11.3)
     mocha (1.5.0)
@@ -32,6 +34,8 @@ PLATFORMS
 
 DEPENDENCIES
   allocation_stats
+  awesome_print
+  byebug
   minitest
   mocha
   rake
@@ -40,4 +44,4 @@ DEPENDENCIES
   test-unit
 
 BUNDLED WITH
-   1.16.1
+   1.17.3

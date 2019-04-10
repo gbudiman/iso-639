@@ -2,6 +2,10 @@
 require 'helper'
 
 describe ISO_639 do
+  it "should have full code list in ISO_639_3" do
+    assert_equal 8197, ISO_639::ISO_639_3.length
+  end
+
   it "should have full code list in ISO_639_2" do
     assert_equal 485, ISO_639::ISO_639_2.length
   end

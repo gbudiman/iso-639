@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "iso-639.gemspec",
     "lib/iso-639.rb",
+    "lib/iso-639/iso-639-table.rb",
     "test/helper.rb",
     "test/test_iso_639.rb"
   ]

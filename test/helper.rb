@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'bundler'
+require 'byebug'
+require 'awesome_print'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
